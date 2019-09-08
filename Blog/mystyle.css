@@ -1,0 +1,112 @@
+
+
+
+body {
+    background-image: url(visage.jpg) ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    padding-left : 160px;
+    font-size : 1rem;
+ }
+
+h1 {
+font-family: Cursive, Helvetica, sans-serif;
+text-align: center;
+color:rgb(146, 19, 19);
+text-decoration: italic;
+font-size: 4rem;
+padding: 0.5em;
+}
+
+h2 {
+  color:rgb(146, 19, 19);
+  font-family: verdana;
+  font-size: 1rem;
+  padding: 0px 60px 0px 60px;
+  margin-top:  3.5em;
+  text-align: left;
+}
+
+.video-container {
+    max-width: 720px;
+    padding-left: 60px;
+   }
+
+.video-container div{
+        position: relative;
+        height: 0;
+        padding-bottom: 56.25%;
+}
+        
+.video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 85%;
+        height: 85%;
+}
+
+ p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    color: lightgrey;
+    text-align: justify;
+    padding: 10px 60px 20px 60px;
+    }
+
+h2 + p::first-letter {
+    font-size: 2.5rem;
+    line-height: 1.5rem;
+    color:rgb(146, 19, 19);
+    float: left;
+    padding-top: 0.5rem;
+    padding-right: 0.4rem;
+    padding-left: 0.1rem;
+ }
+
+a {
+    color: rgb(218, 105, 105);
+}
+
+.button {
+    display: inline-block;
+    Text-decoration: none;
+    background:rgb(182, 41, 41);
+    color: black;
+    padding: 8px 32px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.button:hover {
+    background: orange;
+}
+
+
+.links {
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.wallpaper-ref {
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 1174px) {
+    body {
+        padding-left : 0px;
+        }
+  }
+  
+   img {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    max-width: 400px;
+    padding: 10px 60px 30px 45px; 
+    }
+
+}
